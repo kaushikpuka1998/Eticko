@@ -1,0 +1,13 @@
+.HeadNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    .ButtonBox{
+        display: flex;
+        width: -webkit-fill-available;
+        flex-direction: row;
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+}
