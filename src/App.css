@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Popins';
+  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter.ttf) format('truetype');
+}
