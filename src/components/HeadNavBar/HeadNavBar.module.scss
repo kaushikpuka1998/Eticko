@@ -24,6 +24,13 @@
         justify-content: space-between;
         padding: 5px;
         align-items: center;
-    
+       
+    }
+    .searchBar{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 5px;
+       align-items: center;
     }
 }
