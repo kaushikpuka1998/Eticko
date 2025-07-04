@@ -19,3 +19,6 @@
   background-color: #d1d5db;
   margin: 0 1rem;
 }
+.flex{
+  display: flex;
+}
