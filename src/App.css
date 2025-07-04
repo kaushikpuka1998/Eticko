@@ -21,4 +21,18 @@
 }
 .flex{
   display: flex;
+  height: fit-content;
+  .flex-1{
+    margin: 0px 20px 0px 20px;
+      height: fit-content;
+  }
+}
+
+
+hr{
+  margin-left: -20%;
+}
+
+body{
+  padding: 0px 20px 0px 20px;
 }
