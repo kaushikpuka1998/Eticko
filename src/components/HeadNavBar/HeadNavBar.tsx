@@ -20,25 +20,25 @@ const HeadNavBar: FC<HeadNavBarProps> = () => {
         <TopBarButton>About</TopBarButton>
         <TopBarButton>Signup</TopBarButton>
       </div>
+      <div className={styles.RightSide}>
+        <div className={styles.searchBar}>
+          <InputBox
+            label=""
+            placeholder="What are you looking for?"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            type="email"
+          />
 
-
-      <div className={styles.searchBar}>
-        <InputBox
-          label=""
-          placeholder="What are you looking for?"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-        />
-
-      </div>
-
-      <div className={styles.imgGrid}>
-        <div className={styles.WishList}>
-          <img src='src/assets/images/Wishlist.png' />
         </div>
-        <div className={styles.Cart}>
-          <img src='src/assets/images/cart.png' />
+
+        <div className={styles.imgGrid}>
+          <div className={styles.WishList}>
+            <img src='src/assets/images/Wishlist.png' />
+          </div>
+          <div className={styles.Cart}>
+            <img src='src/assets/images/cart.png' />
+          </div>
         </div>
       </div>
     </div>
