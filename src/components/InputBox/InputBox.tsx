@@ -1,15 +1,19 @@
 import React from 'react';
-import type { FC } from 'react';
 import styles from './InputBox.module.scss';
-import PropTypes from 'prop-types';
 
-interface InputBoxProps {}
+type InputBoxProps = {
+  label?: string;
+  placeholder?: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  type?: string;
+};
 
-const InputBox = ({ label, placeholder, value, onChange, type = 'text' }) => {
+const InputBox = ({ label, placeholder, value, onChange, type = 'text' }: InputBoxProps) => {
   return (
 
 
-      <div className={styles.inputGroup}>
+    <div className={styles.inputGroup}>
       {label && <label className={styles.label}>{label}</label>}
       <input
         type={type}
@@ -19,21 +23,14 @@ const InputBox = ({ label, placeholder, value, onChange, type = 'text' }) => {
         onChange={onChange}
       />
 
-      <div className={styles.WishList}>
-            <img src='src/assets/images/search.png'/>
-        </div>
+      <div className={styles.search}>
+        <img src='src/assets/images/search.png' />
+      </div>
     </div>
 
-      
-  
+
+
   );
 };
-InputBox.propTypes = {
-  label: PropTypes.string,
-  placeholder: PropTypes.string,
-  type: PropTypes.string,
-  value: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
-}
 
 export default InputBox;
