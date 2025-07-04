@@ -7,3 +7,15 @@
   font-family: 'Inter';
   src: local('Inter'), url(./fonts/Inter.ttf) format('truetype');
 }
+
+.horizontal {
+  border-top: 1px solid #d1d5db;
+  margin: 1rem 0;
+}
+
+.vertical {
+  width: 1px;
+  height: 100%;
+  background-color: #d1d5db;
+  margin: 0 1rem;
+}
