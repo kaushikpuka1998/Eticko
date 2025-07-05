@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, type JSX } from 'react';
 
 const LazyCategoryortion = lazy(() => import('./Categoryortion'));
 

@@ -15,7 +15,6 @@
 
 .vertical {
   width: 1px;
-  height: 100%;
   background-color: #d1d5db;
   margin: 0 1rem;
 }
@@ -26,11 +25,6 @@
   }
 }
 
-
-hr{
-  margin-left: -20%;
-}
-
 body{
-  padding: 0px 20px 0px 20px;
+  margin: 0px 135px;
 }

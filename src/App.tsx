@@ -24,6 +24,7 @@ function App() {
           </div>
         </div>
       </div>
+      <hr className="border-t border-gray-300 my-4" />
       <Categoryortion />
     </>
   )
