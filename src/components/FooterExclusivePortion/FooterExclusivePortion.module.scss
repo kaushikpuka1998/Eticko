@@ -1,0 +1,69 @@
+.FooterExclusivePortion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  flex-shrink: 0;
+  background: var(--Button, #000);
+  padding: 40px;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.headingBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.exclusiveBadge {
+  width: 118px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.exclusiveText {
+  color: #fafafa;
+  font-size: 1.5rem; // text-2xl
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.subscribeText {
+  color: #fafafa;
+  font-size: 1.25rem; // text-xl
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.offerText {
+  color: #fafafa;
+}
+
+.inputBox {
+  width: 217px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 0.75rem 0 0.75rem 1rem;
+  border: 1.5px solid #fafafa;
+  border-radius: 8px;
+}
+
+.placeholder {
+  color: #fafafa;
+  opacity: 0.4;
+}

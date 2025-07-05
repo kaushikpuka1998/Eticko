@@ -6,6 +6,7 @@ import Divider from './components/Divider/Divider'
 import LeftColumnBar from './components/LeftColumnBar/LeftColumnBar'
 import BannerCarousel from './Carousel'
 import Categoryortion from './components/Categoryortion/Categoryortion'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       </div>
       <hr className="border-t border-gray-300 my-4" />
       <Categoryortion />
+
+      <Footer />
     </>
   )
 }

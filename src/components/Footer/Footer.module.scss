@@ -1,0 +1,9 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  gap: 60px;
+  flex-shrink: 0;
+  background: var(--Button, #000);
+}

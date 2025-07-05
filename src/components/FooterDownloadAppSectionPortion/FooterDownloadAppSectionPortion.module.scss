@@ -1,0 +1,80 @@
+.FooterDownloadAppSectionPortion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  background: var(--Button, #000);
+  padding: 40px;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.title {
+  color: var(--Text, #fafafa);
+
+  /* Title/20PX Medium */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.subBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; // gap-2
+}
+
+.subtitle {
+  color: #fafafa;
+  font-size: 0.75rem; // text-xs
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.qrAndStores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem; // gap-2
+}
+
+.storeButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; // gap-1
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem; // gap-6
+}
+
+.iconWrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2px;
+}
+
+.iconWrapperSmall {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
