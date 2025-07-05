@@ -18,9 +18,9 @@ const BannerCarousel: React.FC<BannerCarouselProps> = ({ images }) => {
       showArrows={false}
       swipeable
     >
-      {images.map((src, index) => (
-        <div key={index}>
-          <img src={src} alt={`slide-${index}`} className="object-cover" />
+      {images.map((img, index) => (
+        <div key={index} className="w-full">
+          <img src={img} className="w-full object-cover h-[500px]" alt={`banner-${index}`} />
         </div>
       ))}
     </Carousel>

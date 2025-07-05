@@ -5,10 +5,10 @@ import SalePortion from './components/SalePortion/SalePortion'
 import Divider from './components/Divider/Divider'
 import LeftColumnBar from './components/LeftColumnBar/LeftColumnBar'
 import BannerCarousel from './Carousel'
+import Categoryortion from './components/Categoryortion/Categoryortion'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -24,6 +24,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Categoryortion />
     </>
   )
 }
