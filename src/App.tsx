@@ -7,11 +7,10 @@ import LeftColumnBar from './components/LeftColumnBar/LeftColumnBar'
 import BannerCarousel from './Carousel'
 import Categoryortion from './components/Categoryortion/Categoryortion'
 import Footer from './components/Footer/Footer'
-import ItemBoxPortion from './components/ItemBoxPortion/ItemBoxPortion'
+import FlashSalesPortion from './components/FlashSalesPortion/FlashSalesPortion';
 
 
-
-const sampleProducts = [
+export const sampleProducts = [
   {
     title: "HAVIT HV-G92 Gamepad",
     currentPrice: "120",
@@ -142,11 +141,8 @@ function App() {
         </div>
       </div>
       <hr className="border-t border-gray-300 my-4" />
-      <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
-        {sampleProducts.map((product, index) => (
-          <ItemBoxPortion key={index} {...product} />
-        ))}
-      </div>
+      <FlashSalesPortion />
+      <hr className="border-t border-gray-300 my-4" />
       <Categoryortion />
       <Footer />
     </>

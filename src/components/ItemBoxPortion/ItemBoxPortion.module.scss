@@ -12,6 +12,12 @@
   background-color: #f5f5f5;
   border-radius: 0.5rem;
   justify-items: center;
+  .topIcon {
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+    padding: 12px 16px;
+  }
 }
 
 .discountBadge {
@@ -25,6 +31,15 @@
   padding: 0.25rem 0.75rem;
   background-color: #db4444;
   border-radius: 0.25rem;
+
+  color: var(--Text, #fafafa);
+
+  /* Title/12PX Regular */
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
 }
 
 .iconsWrapper {
@@ -72,7 +87,7 @@
   /* set height of container */
 
   img {
-    height: 120px;
+    height: 90px;
   }
 }
 
@@ -135,4 +150,39 @@
   font-style: normal;
   font-weight: 600;
   line-height: 21px; /* 150% */
+}
+
+.productCardWrapper {
+  position: relative;
+
+  &:hover .addToCartWrapper {
+    opacity: 1;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+}
+
+.addToCartWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 0.1s ease, transform 0.3s ease;
+  }
+}
+
+.addToCartButton {
+  background-color: #000;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 105px;
+  cursor: pointer;
 }

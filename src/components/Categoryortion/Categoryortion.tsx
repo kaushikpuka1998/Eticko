@@ -29,9 +29,9 @@ const Categoryortion: FC<CategoryortionProps> = () => {
           <div className={styles.arrow} onClick={() => scroll('left')}>
             <img src='src/assets/images/Fill with Left Arrow.png' />
           </div>
-          <button className={styles.arrow} onClick={() => scroll('right')}>
+          <div className={styles.arrow} onClick={() => scroll('right')}>
             <img src='src/assets/images/Fill with Right Arrow.png' />
-          </button>
+          </div>
         </div>
       </div>
 

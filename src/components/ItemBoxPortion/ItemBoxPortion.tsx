@@ -15,7 +15,7 @@ export interface ItemBoxPortionProps {
   discount?: string;
   imageUrl: string;
   ratingImgUrl: string;
-  rating: string;
+  rating: number;
   icons?: IconType[];
 }
 
@@ -53,31 +53,41 @@ const ItemBoxPortion: FC<ItemBoxPortionProps> = ({
   ratingCount,
   discount,
   imageUrl,
-  ratingImgUrl,
-  rating,
-  icons
+  rating
 }) => (
   <div className={styles.productCardWrapper}>
-    <div className={styles.productCard}>
-      {discount && (
-        <div className={styles.discountBadge}>
-          <span>{discount}</span>
-        </div>
-      )}
 
-      <div className={styles.iconsWrapper}>
-        {icons?.map((icon, index) => (
-          <div className={styles.iconContainer} key={index}>
-            <img src={icon.bg} alt={`icon`} />
-            <img className={styles.iconOverlay} src={icon.overlay} alt={`icon overlay ${index}`} />
+    <div className={styles.productCard}>
+      <div className={styles.topIcon}>
+        {discount && (
+          <div className={styles.discountBadge}>
+            <span>{discount}</span>
           </div>
-        ))}
+        )}
+
+        <div>
+          <div className={styles.img1}>
+            <img src="src/assets/images/Heart.png" />
+          </div>
+
+          <div className={styles.img1}>
+            <img src="src/assets/images/Eye.png" />
+          </div>
+        </div>
       </div>
 
+      <div className={styles.addToCartWrapper}>
+        <div className={styles.addToCartButton}>Add to Cart</div>
+      </div>
       <div className={styles.productImage}>
         <img src={imageUrl} alt={title} />
       </div>
+
+
+
     </div>
+
+
 
     <div className={styles.productInfo}>
       <span className={styles.productTitle}>{title}</span>
@@ -86,7 +96,7 @@ const ItemBoxPortion: FC<ItemBoxPortionProps> = ({
         <span className={styles.priceOriginal}>&#36;{originalPrice}</span>
       </div>
       <div className={styles.ratingWrapper}>
-        <span className={styles.ratingCount}>{getStarIcons(parseFloat(rating))}</span>
+        <span className={styles.ratingCount}>{getStarIcons(rating)}</span>
         <span className={styles.ratingCount}>({ratingCount})</span>
       </div>
     </div>
