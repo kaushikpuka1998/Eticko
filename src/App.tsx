@@ -136,7 +136,7 @@ function App() {
           <LeftColumnBar />
           <Divider />
           <div className="flex-1">
-            <BannerCarousel images={["src/assets/images/Frame1.png", "src/assets/images/Frame2.png", "src/assets/images/Frame3.png"]} />
+            <BannerCarousel images={["src/assets/images/frame1.jpg", "src/assets/images/Frame2.jpg", "src/assets/images/Frame3.png", "src/assets/images/Frame4.jpg"]} />
           </div>
         </div>
       </div>
