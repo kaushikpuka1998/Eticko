@@ -1,0 +1,192 @@
+// .ExploreProductPortion {
+//   display: flex;
+//   flex-direction: row;
+//   padding: 12px;
+
+//   .portion1 {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     .Rectangle {
+//       width: 20px;
+//       height: 40px;
+//       background-color: #db4444;
+//       border-radius: 8px;
+//       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+//       margin: 20px 0;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       font-weight: 600;
+//       font-size: 1.2rem;
+//     }
+//     .CategoriesText {
+//       font-family: Poppins;
+//       width: 90px;
+//       height: 20px;
+//       margin: 25px;
+//       color: #db4444;
+//     }
+//   }
+//   .BrowserStyleWithArrow {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     .BrowseByCategory {
+//       font-family: Inter;
+//       font-size: 36px;
+//       font-style: normal;
+//       font-weight: 600;
+//       line-height: 48px; /* 133.333% */
+//       letter-spacing: 1.44px;
+//       margin-bottom: 60px;
+//     }
+//     .OnlyButton {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-around;
+//       gap: 35px;
+//     }
+//   }
+//   .sliderContainer {
+//     display: flex;
+//     gap: 1.5rem;
+//     overflow-x: auto;
+//     scroll-behavior: smooth;
+//     padding-bottom: 8px;
+
+//     /* Hide scrollbar (cross-browser) */
+//     scrollbar-width: none; /* Firefox */
+//     -ms-overflow-style: none; /* IE 10+ */
+
+//     &::-webkit-scrollbar {
+//       display: none; /* Chrome, Safari */
+//     }
+//   }
+
+//   .arrow {
+//     color: #fff;
+//     border: none;
+//     border-radius: 50%;
+//     font-size: 18px;
+//     width: 32px;
+//     height: 32px;
+//     cursor: pointer;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   .arrow:hover {
+//     background-color: #333;
+//   }
+// }
+
+.ExploreProductPortion {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+
+  .portion1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .Rectangle {
+      width: 20px;
+      height: 40px;
+      background-color: #db4444;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .CategoriesText {
+      font-family: Poppins;
+      width: fit-content;
+      height: 20px;
+      margin: 25px;
+      color: #db4444;
+    }
+  }
+  .BrowserStyleWithArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .BrowseByCategory {
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 48px; /* 133.333% */
+      letter-spacing: 1.44px;
+      margin-bottom: 60px;
+    }
+    .OnlyButton {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 35px;
+    }
+  }
+  .sliderContainer {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 8px;
+
+    /* Hide scrollbar (cross-browser) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+  }
+
+  .arrow {
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow:hover {
+    background-color: #333;
+  }
+
+  .centerWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px; // optional spacing
+  }
+
+  .viewAllProductsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 16px 48px;
+    background-color: #db4444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .viewAllText {
+    color: #fafafa;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+}

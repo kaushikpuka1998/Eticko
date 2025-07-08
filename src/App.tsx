@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer'
 import FlashSalesPortion from './components/FlashSalesPortion/FlashSalesPortion';
 import BestSellingProductsPortion from './components/BestSellingProductsPortion/BestSellingProductsPortion';
 import PromisePortion from './components/PromisePortion/PromisePortion';
+import ExploreProductPortion from './components/ExploreProductPortion/ExploreProductPortion';
 
 
 export const sampleProducts = [
@@ -221,6 +222,9 @@ function App() {
       <hr className="border-t border-gray-300 my-4" />
       <Categoryortion />
 
+      <hr className="border-t border-gray-300 my-4" />
+
+      <ExploreProductPortion />
       <hr className="border-t border-gray-300 my-4" />
       <PromisePortion />
       <Footer />
