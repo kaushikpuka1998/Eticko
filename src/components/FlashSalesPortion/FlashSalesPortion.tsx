@@ -1,8 +1,8 @@
 import { useRef, type FC } from 'react';
 import styles from './FlashSalesPortion.module.scss';
-import { sampleProducts } from '../../App';
 import ItemBoxPortion from '../ItemBoxPortion/ItemBoxPortion';
 import CountdownTimer from '../CountDownTime/CountDownTime';
+import { sampleProducts } from '../../pages/Home';
 
 
 interface FlashSalesPortionProps { }

@@ -1,7 +1,7 @@
-import React, { useRef, useState, type FC } from 'react';
+import { useState, type FC } from 'react';
 import styles from './ExploreProductPortion.module.scss';
-import { sampleProducts } from '../../App';
 import ItemBoxPortion from '../ItemBoxPortion/ItemBoxPortion';
+import { sampleProducts } from '../../pages/Home';
 
 interface ExploreProductPortionProps { }
 

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FC } from 'react';
 import styles from './BestSellingProductsPortion.module.scss';
-import { sampleProducts } from '../../App';
 import ItemBoxPortion from '../ItemBoxPortion/ItemBoxPortion';
+import { sampleProducts } from '../../pages/Home';
 
 interface BestSellingProductsPortionProps { }
 
