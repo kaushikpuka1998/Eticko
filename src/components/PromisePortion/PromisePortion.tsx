@@ -1,4 +1,4 @@
-import React, { type FC } from 'react';
+import { type FC } from 'react';
 import styles from './PromisePortion.module.scss';
 
 interface PromisePortionProps { }
