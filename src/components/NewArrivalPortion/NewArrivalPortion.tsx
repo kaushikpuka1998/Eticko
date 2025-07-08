@@ -12,6 +12,8 @@ const NewArrivalPortion: FC<NewArrivalPortionProps> = () => {
         <div className={styles.CategoriesText}>Featured</div>
       </div>
 
+      <div className={styles.HeadLine}>New Arrival</div>
+
 
       <div className={styles.contentBlock}>
         {/* PlayStation 5 Block */}

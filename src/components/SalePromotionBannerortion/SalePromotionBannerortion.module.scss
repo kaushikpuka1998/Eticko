@@ -1,0 +1,80 @@
+.bannerContainer {
+  height: 500px;
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageTopRight {
+  position: absolute;
+  left: 552px;
+  top: 0;
+}
+
+.categoriesText {
+  position: absolute;
+  top: 69px;
+  left: 56px;
+  color: var(--Button1, #0f6);
+
+  /* Title/16PX Semibold */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+
+.headingText {
+  position: absolute;
+  top: 121px;
+  left: 56px;
+  font-size: 3rem;
+  color: var(--Text, #fafafa);
+  /* Heading/48PX SemiBold */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 125% */
+  letter-spacing: 1.92px;
+}
+
+.timerGroup {
+  position: absolute;
+  top: 273px;
+  left: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.buyNowButton {
+  position: absolute;
+  top: 75%;
+  left: 50px;
+  padding: 16px 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #00ff66;
+  border-radius: 8px;
+  span {
+    color: #fafafa;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.productImage {
+  position: absolute;
+  top: 37px;
+  left: 60%;
+
+  img {
+    display: block;
+    box-shadow: 0 0 80px 20px #d9d9d977; // radial-like soft spread
+    border-radius: 50%; // works best for circular or square images
+  }
+}

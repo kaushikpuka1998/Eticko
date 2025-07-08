@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 80px;
   justify-content: flex-start;
   align-items: flex-start;
 
@@ -35,6 +34,18 @@
       line-height: 20px;
     }
   }
+}
+.HeadLine {
+  color: var(--Text2, #000);
+
+  /* Heading/36PX SemiBold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 1.44px;
+  margin-bottom: 20px;
 }
 
 .headingBlock {

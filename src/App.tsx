@@ -12,6 +12,7 @@ import BestSellingProductsPortion from './components/BestSellingProductsPortion/
 import PromisePortion from './components/PromisePortion/PromisePortion';
 import ExploreProductPortion from './components/ExploreProductPortion/ExploreProductPortion';
 import NewArrivalPortion from './components/NewArrivalPortion/NewArrivalPortion';
+import SalePromotionBannerortion from './components/SalePromotionBannerortion/SalePromotionBannerortion';
 
 
 export const sampleProducts = [
@@ -222,6 +223,10 @@ function App() {
 
       <hr className="border-t border-gray-300 my-4" />
       <Categoryortion />
+
+      <hr className="border-t border-gray-300 my-4" />
+
+      <SalePromotionBannerortion />
 
       <hr className="border-t border-gray-300 my-4" />
 
