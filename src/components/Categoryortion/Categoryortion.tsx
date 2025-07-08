@@ -54,8 +54,8 @@ const Categoryortion: FC<CategoryortionProps> = () => {
             <div className={styles.Property}>Headphones</div>
           </div>
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-CellPhone.png' />
-            <div className={styles.Property}>Phones</div>
+            <img src='src/assets/images/microwave.png' />
+            <div className={styles.Property}>Microwave</div>
           </div>
           <div className={styles.Contact}>
             <img src='src/assets/images/Category-Gamepad.png' />
@@ -63,29 +63,29 @@ const Categoryortion: FC<CategoryortionProps> = () => {
           </div>
 
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-Gamepad.png' />
-            <div className={styles.Property}>Gaming</div>
+            <img src='src/assets/images/fashion.png' />
+            <div className={styles.Property}>Fashion</div>
           </div>
 
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-Gamepad.png' />
-            <div className={styles.Property}>Gaming</div>
+            <img src='src/assets/images/smart-tv.png' />
+            <div className={styles.Property}>TV</div>
           </div>
 
 
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-Gamepad.png' />
-            <div className={styles.Property}>Gaming</div>
+            <img src='src/assets/images/sound-system.png' />
+            <div className={styles.Property}>Music</div>
           </div>
 
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-Gamepad.png' />
-            <div className={styles.Property}>Gaming</div>
+            <img src='src/assets/images/bulb.png' />
+            <div className={styles.Property}>SmartBulb</div>
           </div>
 
           <div className={styles.Contact}>
-            <img src='src/assets/images/Category-Gamepad.png' />
-            <div className={styles.Property}>Gaming</div>
+            <img src='src/assets/images/fridge.png' />
+            <div className={styles.Property}>Fridge</div>
           </div>
         </div>
       </div>
