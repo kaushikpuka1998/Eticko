@@ -1,0 +1,211 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .portion1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .Rectangle {
+      width: 20px;
+      height: 40px;
+      background-color: #db4444;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .CategoriesText {
+      font-family: Poppins;
+      width: fit-content;
+      height: 20px;
+      margin: 25px;
+      color: #db4444;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+    }
+  }
+}
+
+.headingBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featuredTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.featuredText {
+  color: #db4444;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 2.25rem;
+  color: #000;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ps5Block {
+  min-width: calc(100% + 20px);
+  height: 800px;
+  background-color: #000;
+  border-radius: 8px;
+  position: relative;
+}
+
+.ps5Image {
+  position: absolute;
+  top: 30px;
+  left: 29px;
+  object-fit: cover;
+}
+
+.ps5Text {
+  position: absolute;
+  top: 446px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 242px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.womenBlock {
+  width: calc(80% + 20px);
+  height: 284px;
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  position: relative;
+  justify-items: center;
+}
+
+.womenImage {
+  width: 70%;
+  height: 284px;
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+  left: 50%;
+  transform: rotate(0deg);
+  object-fit: cover;
+}
+
+.womenText {
+  position: absolute;
+  top: 138px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 255px;
+}
+
+.bottomCards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.bottomcard {
+  width: 360px;
+  height: 484px;
+  background-color: #000;
+  border-radius: 8px;
+  position: relative;
+  justify-items: center;
+}
+
+.circleImg {
+  position: absolute;
+  top: 44px;
+  left: 37px;
+  width: auto;
+}
+
+.productImg {
+  position: absolute;
+  top: 25%;
+  left: 30px;
+  width: auto;
+}
+
+.cardText {
+  position: absolute;
+  top: 75%;
+  left: 24px;
+  width: 191px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.itemTitle {
+  color: var(--Text, #fafafa);
+
+  /* Heading/24PX SemiBold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.72px;
+}
+
+.itemDesc {
+  color: var(--Text, #fafafa);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.shopNow {
+  color: #fff;
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}

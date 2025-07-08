@@ -11,6 +11,7 @@ import FlashSalesPortion from './components/FlashSalesPortion/FlashSalesPortion'
 import BestSellingProductsPortion from './components/BestSellingProductsPortion/BestSellingProductsPortion';
 import PromisePortion from './components/PromisePortion/PromisePortion';
 import ExploreProductPortion from './components/ExploreProductPortion/ExploreProductPortion';
+import NewArrivalPortion from './components/NewArrivalPortion/NewArrivalPortion';
 
 
 export const sampleProducts = [
@@ -226,6 +227,8 @@ function App() {
 
       <ExploreProductPortion />
       <hr className="border-t border-gray-300 my-4" />
+
+      <NewArrivalPortion />
       <PromisePortion />
       <Footer />
     </>
