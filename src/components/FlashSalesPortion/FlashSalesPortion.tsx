@@ -2,6 +2,7 @@ import { useRef, type FC } from 'react';
 import styles from './FlashSalesPortion.module.scss';
 import { sampleProducts } from '../../App';
 import ItemBoxPortion from '../ItemBoxPortion/ItemBoxPortion';
+import CountdownTimer from '../CountDownTime/CountDownTime';
 
 
 interface FlashSalesPortionProps { }
@@ -27,7 +28,13 @@ const FlashSalesPortion: FC<FlashSalesPortionProps> = () => {
         <div className={styles.CategoriesText}>Today's</div>
       </div>
       <div className={styles.BrowserStyleWithArrow}>
-        <div className={styles.BrowseByCategory}>Flash Sales</div>
+        <div className={styles.BrowseByCategoryWithTimer}>
+          <div className={styles.BrowseByCategory}>Flash Sales</div>
+          <div className={styles.CountDown}>
+            <CountdownTimer targetDate="2025-12-31T23:59:59" />
+          </div>
+        </div>
+
         <div className={styles.OnlyButton}>
           <div className={styles.arrow} onClick={() => scroll('left')}>
             <img src='src/assets/images/Fill with Left Arrow.png' />
