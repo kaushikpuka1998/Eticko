@@ -25,7 +25,7 @@ const BestSellingProductsPortion: FC<BestSellingProductsPortionProps> = () => {
       </div>
 
       <div className={styles.sliderContainer}>
-        {sampleProducts.slice(0, 6).map((product, index) => (
+        {sampleProducts.slice(0, 5).map((product, index) => (
           <ItemBoxPortion key={index} {...product} />
         ))}
       </div>

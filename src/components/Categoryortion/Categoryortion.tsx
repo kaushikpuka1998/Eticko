@@ -35,8 +35,8 @@ const Categoryortion: FC<CategoryortionProps> = () => {
         </div>
       </div>
 
-      <div className={styles.sliderContainer}>
-        <div className={styles.ListName} ref={scrollRef}>
+      <div className={styles.sliderContainer} ref={scrollRef}>
+        <div className={styles.ListName} >
           <div className={styles.Contact}>
             <img src='src/assets/images/Category-CellPhone.png' />
             <div className={styles.Property}>Phones</div>

@@ -1,0 +1,83 @@
+.PromisePortion {
+  width: 943px;
+  height: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 88px;
+  margin: 10% 20%;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem; // 24px
+}
+
+.imageWrapper {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.bgImg {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.iconOverlay {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.iconImg {
+  width: 40px;
+  height: 40px;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.title {
+  color: #000;
+
+  /* Title/20PX Semibold */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+.subtitle {
+  color: #000;
+  text-align: center;
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
