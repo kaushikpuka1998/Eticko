@@ -8,6 +8,7 @@ import BannerCarousel from './Carousel'
 import Categoryortion from './components/Categoryortion/Categoryortion'
 import Footer from './components/Footer/Footer'
 import FlashSalesPortion from './components/FlashSalesPortion/FlashSalesPortion';
+import BestSellingProductsPortion from './components/BestSellingProductsPortion/BestSellingProductsPortion';
 
 
 export const sampleProducts = [
@@ -143,6 +144,7 @@ function App() {
       <hr className="border-t border-gray-300 my-4" />
       <FlashSalesPortion />
       <hr className="border-t border-gray-300 my-4" />
+      <BestSellingProductsPortion />
       <Categoryortion />
       <Footer />
     </>
