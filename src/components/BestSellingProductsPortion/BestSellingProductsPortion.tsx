@@ -1,4 +1,4 @@
-import { useRef, useState, type FC } from 'react';
+import { useEffect, useRef, useState, type FC } from 'react';
 import styles from './BestSellingProductsPortion.module.scss';
 import { sampleProducts } from '../../App';
 import ItemBoxPortion from '../ItemBoxPortion/ItemBoxPortion';
@@ -8,6 +8,18 @@ interface BestSellingProductsPortionProps { }
 const BestSellingProductsPortion: FC<BestSellingProductsPortionProps> = () => {
 
   const [showAll, setShowAll] = useState(false);
+
+  useEffect(() => {
+    if (showAll) {
+      document.body.style.overflow = 'hidden'; // lock background scroll
+    } else {
+      document.body.style.overflow = 'auto'; // restore scroll when modal is closed
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto'; // clean up if component unmounts
+    };
+  }, [showAll]);
 
   return (
     <div className={styles.BestSellingProductsPortion}>

@@ -124,6 +124,77 @@ export const sampleProducts = [
       { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
       { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
     ]
+  },
+  {
+    title: "Playstation PS5",
+    currentPrice: "75",
+    originalPrice: "99",
+    ratingCount: 58,
+    rating: 3.9,
+    discount: "-25%",
+    imageUrl: "src/assets/images/gamestation.png",
+    ratingImgUrl: "src/assets/images/Star.png",
+    icons: [
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
+    ]
+  },
+  {
+    title: "Playstation PS5",
+    currentPrice: "75",
+    originalPrice: "99",
+    ratingCount: 58,
+    rating: 3.9,
+    discount: "-25%",
+    imageUrl: "src/assets/images/gamestation.png",
+    ratingImgUrl: "src/assets/images/Star.png",
+    icons: [
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
+    ]
+  }
+  ,
+  {
+    title: "Playstation PS5",
+    currentPrice: "75",
+    originalPrice: "99",
+    ratingCount: 58,
+    rating: 3.9,
+    discount: "-25%",
+    imageUrl: "src/assets/images/gamestation.png",
+    ratingImgUrl: "src/assets/images/Star.png",
+    icons: [
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
+    ]
+  },
+  {
+    title: "Playstation PS5",
+    currentPrice: "75",
+    originalPrice: "99",
+    ratingCount: 58,
+    rating: 3.9,
+    discount: "-25%",
+    imageUrl: "src/assets/images/gamestation.png",
+    ratingImgUrl: "src/assets/images/Star.png",
+    icons: [
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
+    ]
+  },
+  {
+    title: "Playstation PS5",
+    currentPrice: "75",
+    originalPrice: "99",
+    ratingCount: 58,
+    rating: 3.9,
+    discount: "-25%",
+    imageUrl: "src/assets/images/gamestation.png",
+    ratingImgUrl: "src/assets/images/Star.png",
+    icons: [
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/25/24" },
+      { bg: "https://picsum.photos/id/34/34", overlay: "https://picsum.photos/id/20/14" }
+    ]
   }
 ];
 function App() {
