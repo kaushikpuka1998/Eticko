@@ -1,4 +1,3 @@
-import React from 'react';
 import type { FC } from 'react';
 import styles from './LeftColumnBar.module.scss';
 import LeftColumnButton from '../LeftColumnButton/LeftColumnButton';

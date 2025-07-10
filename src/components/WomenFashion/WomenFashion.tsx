@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import { type FC } from 'react';
 import styles from './WomenFashion.module.scss';
 
-interface WomenFashionProps {}
+interface WomenFashionProps { }
 
 const WomenFashion: FC<WomenFashionProps> = () => (
   <div className={styles.WomenFashion}>
