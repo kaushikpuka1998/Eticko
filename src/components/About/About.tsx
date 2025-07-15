@@ -1,12 +1,12 @@
-import React, { FC } from 'react';
+import type {FC} from 'react';
 import styles from './About.module.scss';
 
-interface AboutProps {}
+type AboutProps = object
 
 const About: FC<AboutProps> = () => (
-  <div className={styles.About}>
-    About Component
-  </div>
+    <div className={styles.About}>
+        About Component
+    </div>
 );
 
 export default About;

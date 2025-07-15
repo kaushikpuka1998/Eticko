@@ -199,8 +199,8 @@ export const sampleProducts = [
 ];
 const Home = () => {
   return (
-    <>
-      <div className="body">
+    <body>
+      <div >
         <hr className="border-t border-gray-300 my-4" />
         <div className="flex">
           <LeftColumnBar />
@@ -230,7 +230,7 @@ const Home = () => {
       <hr className="border-t border-gray-300 my-4" />
       <NewArrivalPortion />
       <PromisePortion />
-    </>
+    </body>
   );
 };
 

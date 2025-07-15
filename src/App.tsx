@@ -26,23 +26,23 @@ function App() {
       <HeadNavBar />
       <Routes>
         //top-Bar
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/cart" element={<Cart />} />
+          <Route path="/" element={<Home />} />
+        <Route path  ="/contact" element={<Contact />} />
+        <Route path  ="/about" element={<About />} />
+        <Route path  ="/signup" element={<Signup />} />
+        <Route path  ="/wishlist" element={<Wishlist />} />
+          <Route path="/cart" element={<Cart />} />
 
         //LeftBar
-        <Route path="/women-fashion" element={<WomenFashion />} />
-        <Route path="/men-fashion" element={<MenFashion />} />
-        <Route path="/electronics" element={<Electronics />} />
-        <Route path="/home-lifestyle" element={<HomeLifestyle />} />
-        <Route path="medicine" element={<Medicine />} />
-        <Route path="/sports" element={<Sports />} />
-        <Route path="/baby-toy" element={<BabyToys />} />
-        <Route path="/groceries" element={<Groceries />} />
-        <Route path="/health" element={<HealthBeauty />} />
+        <Route path  ="/women-fashion" element={<WomenFashion />} />
+        <Route path  ="/men-fashion" element={<MenFashion />} />
+        <Route path  ="/electronics" element={<Electronics />} />
+        <Route path  ="/home-lifestyle" element={<HomeLifestyle />} />
+        <Route path  ="medicine" element={<Medicine />} />
+        <Route path  ="/sports" element={<Sports />} />
+        <Route path  ="/baby-toy" element={<BabyToys />} />
+        <Route path  ="/groceries" element={<Groceries />} />
+        <Route path  ="/health" element={<HealthBeauty />} />
       </Routes>
       <Footer />
     </BrowserRouter>
