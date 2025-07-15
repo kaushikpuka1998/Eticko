@@ -3,44 +3,39 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
-  .portion1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    .Rectangle {
-      width: 20px;
-      height: 40px;
-      background-color: #db4444;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-      margin: 20px 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 600;
-      font-size: 1.2rem;
-    }
-
-    .CategoriesText {
-      font-family: Poppins;
-      width: fit-content;
-      height: 20px;
-      margin: 25px;
-      color: #db4444;
-
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 20px;
-    }
-  }
+}
+.container .portion1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .portion1 .Rectangle {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.container .portion1 .CategoriesText {
+  font-family: Poppins;
+  width: fit-content;
+  height: 20px;
+  margin: 25px;
+  color: #db4444;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .HeadLine {
   color: var(--Text2, #000);
-
   /* Heading/36PX SemiBold */
   font-family: Inter;
   font-size: 36px;
@@ -122,21 +117,20 @@
   position: relative;
   justify-items: center;
   overflow: hidden;
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-image: url('src/assets/images/women-hat.png');
-    background-size: cover;
-    background-position: center right;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    z-index: 1;
-  }
+}
+.womenBlock::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url("src/assets/images/women-hat.png");
+  background-size: cover;
+  background-position: center right;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
 }
 
 .womenImage {
@@ -161,9 +155,9 @@
   display: flex;
   flex-direction: row;
   gap: 45px;
-
-
-  @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
+  .bottomCards {
     gap: 8px;
   }
 }
@@ -209,7 +203,6 @@
 
 .itemTitle {
   color: var(--Text, #fafafa);
-
   /* Heading/24PX SemiBold */
   font-family: Inter;
   font-size: 24px;
@@ -221,7 +214,6 @@
 
 .itemDesc {
   color: var(--Text, #fafafa);
-
   /* Title/14PX Regular */
   font-family: Poppins;
   font-size: 14px;
@@ -232,7 +224,6 @@
 
 .shopNow {
   color: #fff;
-
   /* Title/16PX Medium */
   font-family: Poppins;
   font-size: 16px;
@@ -240,3 +231,5 @@
   font-weight: 500;
   line-height: 24px; /* 150% */
 }
+
+/*# sourceMappingURL=NewArrivalPortion.module.css.map */
