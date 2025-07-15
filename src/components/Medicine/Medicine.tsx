@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import {type FC } from 'react';
 import styles from './Medicine.module.scss';
 
-interface MedicineProps {}
+type MedicineProps = object
 
 const Medicine: FC<MedicineProps> = () => (
   <div className={styles.Medicine}>
