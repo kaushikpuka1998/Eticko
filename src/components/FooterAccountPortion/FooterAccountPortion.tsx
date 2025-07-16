@@ -9,19 +9,23 @@ const FooterAccountPortion: FC<FooterAccountPortionProps> = () => {
 
     return (
         <div className={styles.FooterAccountPortion}>
-            <span className={styles.title}>Account</span>
-            <span className={styles.item}>My Account</span>
+            <span
+                className={styles.title}>Account</span>
+            <span
+                className={styles.item}>My Account</span>
             <span
                 className={styles.item}
                 onClick={() => navigate('/signup')}
             >Login / Register
             </span>
-            <span className={styles.item}
-                  onClick={() => navigate('/cart')}>Cart</span>
-            <span className={styles.item}
-
-                  onClick={() => navigate('/wishlist')}>Wishlist</span>
-            <span className={styles.item}>Shop</span>
+            <span
+                className={styles.item}
+                onClick={() => navigate('/cart')}>Cart</span>
+            <span
+                className={styles.item}
+                onClick={() => navigate('/wishlist')}>Wishlist</span>
+            <span
+                className={styles.item}>Shop</span>
         </div>
     );
 };

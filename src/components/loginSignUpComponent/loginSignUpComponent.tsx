@@ -5,7 +5,7 @@ type loginSignUpComponentProps = object
 
 const loginSignUpComponent: FC<loginSignUpComponentProps> = () => (
     <div className={styles.loginSignUpComponent}>
-        loginSignUpComponent Component
+        Login- Signup Component Aded
     </div>
 );
 
