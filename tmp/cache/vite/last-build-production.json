@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "errors": "\nsrc/assets/images/women-hat.png referenced in src/assets/images/women-hat.png didn't resolve at build time, it will remain unchanged to be resolved at runtime\n",
+  "timestamp": "2025-07-28 11:37:58",
+  "vite_ruby": "3.9.2",
+  "digest": "8fc754b28636c6481bc02e2423dee79a2e4c427b"
+}
