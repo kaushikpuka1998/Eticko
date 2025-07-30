@@ -1,0 +1,156 @@
+.Signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 129px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: var(--Text2, #000);
+  /* Heading/36PX Medium */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 83.333% */
+  letter-spacing: 1.44px;
+}
+
+.subtitle {
+  color: var(--Text2, #000);
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--Text2, #000);
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.label {
+  color: #000000;
+  opacity: 0.4;
+}
+
+.underline {
+  width: 370px;
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.createButton {
+  padding: 16px 122px;
+  background-color: #db4444;
+  font-weight: 500;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--Text, #FAFAFA);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+}
+
+.googleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.googleButton {
+  display: flex;
+  gap: 16px;
+  padding: 16px 86px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  align-items: center;
+  color: var(--Text2, #000);
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.loginLink {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.already {
+  color: var(--Text2, #000);
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.login {
+  color: var(--Text2, #000);
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.loginUnderline {
+  width: 47px;
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=Signup.module.css.map */
