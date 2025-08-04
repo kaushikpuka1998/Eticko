@@ -1,12 +1,28 @@
 import type {FC} from 'react';
 import styles from './loginSignUpComponent.module.scss';
+import Signup from "../Signup/Signup.tsx";
+import LoginPage from "../LoginPage/LoginPage.tsx";
 
-type loginSignUpComponentProps = object
+interface LoginSignUpComponentProps {
+    signup?: boolean;
+}
 
-const loginSignUpComponent: FC<loginSignUpComponentProps> = () => (
-    <div className={styles.loginSignUpComponent}>
-        Login- Signup Component Aded
-    </div>
-);
+const LoginSignUpComponent: FC<LoginSignUpComponentProps> = ({signup}) => {
+    return (
+        <div className={styles.loginSignUpComponent}>
+            <div className={styles.Signup}>
+                <div>
+                    <img
+                        src="src/assets/images/login-signuppage.png"
+                        alt="Side Image placeholder"
+                    />
+                </div>
+                <div>
+                    {signup ? <Signup/> : <LoginPage/>}
+                </div>
+            </div>
+        </div>
+    );
+};
 
-export default loginSignUpComponent;
+export default LoginSignUpComponent;
