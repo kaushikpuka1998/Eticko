@@ -23,7 +23,7 @@
     span {
       color: #000;
       font-weight: 500;
-      font-family: Poppins;
+      font-family: Poppins, serif;
       font-size: 16px;
 
     }
@@ -61,9 +61,19 @@
       display: flex;
       align-items: center;
       gap: 10px;
+
+      .icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('src/assets/images/up_arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
     }
 
-    .quantityArrows {
+    .arrowUp {
       display: flex;
       flex-direction: column;
     }
@@ -78,7 +88,7 @@
 
   .priceLeft {
     position: relative;
-    margin-left: -10%;
+    margin-left: -13%;
 
   }
 
@@ -87,13 +97,13 @@
   }
 
   img[alt="Up"] {
-    height: 16px;
-    width: 16px;
+    height: 12px;
+    width: 12px;
   }
 
   img[alt="Down"] {
-    height: 16px;
-    width: 16px;
+    height: 12px;
+    width: 12px;
     transform: rotate(-180deg);
   }
 
@@ -121,6 +131,7 @@
     background: none;
     cursor: pointer;
     font-weight: 500;
+    font-family: Poppins, serif;
   }
 }
 

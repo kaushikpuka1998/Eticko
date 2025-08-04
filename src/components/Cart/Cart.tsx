@@ -44,18 +44,18 @@ const Cart: React.FC = () => {
 
                             <span>{quantities[idx].toString().padStart(2, "0")}</span>
                             <div className={styles.quantityButtons}>
-                                <button
-                                    className={styles.quantityBtn}
+                                <div
+                                    className={styles.arrowUp}
                                     onClick={() => handleQuantityChange(idx, 1)}
                                 >
-                                    &#9650; {/* Up arrow */}
-                                </button>
-                                <button
-                                    className={styles.quantityBtn}
+                                    <img src="src/assets/images/up_arrow.png" alt="Up" className={styles.icon}/>
+                                </div>
+                                <div
+                                    className={styles.arrowDown}
                                     onClick={() => handleQuantityChange(idx, -1)}
                                 >
-                                    &#9660; {/* Down arrow */}
-                                </button>
+                                    <img src="src/assets/images/up_arrow.png" alt="Down" className={styles.icon}/>
+                                </div>
                             </div>
                         </div>
                     </div>
