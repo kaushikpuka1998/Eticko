@@ -1,119 +1,13 @@
 .loginSignUpComponent {
-  width: 1305px;
-  height: 781px;
+  gap: 20px;
+}
+
+.Signup {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: row;
-  gap: 129px;
-}
-
-.formContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 48px;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.title {
-  color: #000000;
-  font-size: 2.25rem; /* text-4xl */
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-}
-
-.subtitle {
-  color: #000000;
-}
-
-.inputSection {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.inputGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.label {
-  color: #000000;
-  opacity: 0.4;
-}
-
-.underline {
-  width: 370px;
-  border-bottom: 1px solid #000000;
-  opacity: 0.5;
-}
-
-.buttonSection {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.createButton {
-  padding: 16px 122px;
-  background-color: #db4444;
-  color: #fafafa;
-  font-weight: 500;
-  border-radius: 8px;
-  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.googleWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.googleButton {
-  display: flex;
-  gap: 16px;
-  padding: 16px 86px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  border-radius: 8px;
-  align-items: center;
-}
-
-.loginLink {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.already {
-  color: #000000;
-  opacity: 0.7;
-}
-
-.loginWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.login {
-  color: #000000;
-  font-weight: 500;
-  opacity: 0.7;
-}
-
-.loginUnderline {
-  width: 47px;
-  border-bottom: 1px solid #000000;
-  opacity: 0.5;
+  width: 100%;
+  gap: 120px;
+  height: 100%;
 }
