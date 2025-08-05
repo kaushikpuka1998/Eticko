@@ -18,6 +18,7 @@ import Contact from "./components/Contact/Contact";
 import Wishlist from "./components/Wishlist/Wishlist";
 import Cart from "./components/Cart/Cart";
 import LoginSignUpComponent from "./components/loginSignUpComponent/loginSignUpComponent.tsx";
+import NotExitPage from "./components/NotExitPage/NotExitPage.tsx";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/baby-toy" element={<BabyToys/>}/>
                 <Route path="/groceries" element={<Groceries/>}/>
                 <Route path="/health" element={<HealthBeauty/>}/>
+                <Route path="*" element={<NotExitPage/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
