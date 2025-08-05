@@ -1,0 +1,107 @@
+.FormContainer {
+  width: 800px;
+  height: 457px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px 32px 40px 31px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+.formContent {
+  width: 737px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.inputBox {
+  width: 235px;
+  height: 50px;
+  position: relative;
+}
+
+.inputBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.placeholder {
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  opacity: 0.5;
+}
+
+.text {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.required {
+  color: #db4444;
+  margin-left: 2px;
+}
+
+.messageBox {
+  width: 737px;
+  height: 207px;
+  position: relative;
+}
+
+.messageBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.messagePlaceholder {
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  color: #000000;
+  opacity: 0.5;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding: 16px 48px;
+  background-color: #db4444;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonText {
+  color: #fafafa;
+  font-weight: 500;
+}
