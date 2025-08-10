@@ -1,1 +1,50 @@
-.About {}
+.About {
+
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 200px;
+  }
+
+  .marginTop50 {
+    margin-top: 50px;
+  }
+
+  img[alt="User"] {
+    height: 320px;
+  }
+
+  .heading {
+    color: #000000;
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .contentWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+
+  }
+
+  .text {
+    color: #000000;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+  }
+
+  .carouselWrapper {
+    margin-top: 124px;
+  }
+
+}

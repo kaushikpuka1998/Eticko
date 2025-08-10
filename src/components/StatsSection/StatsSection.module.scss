@@ -1,0 +1,120 @@
+.container {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.card {
+  width: 270px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  background: #fff;
+  transition: background 0.2s;
+}
+
+.card:hover {
+  background-color: #db4444;
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.card:hover .number,
+.card:hover .text {
+  color: #ffffff;
+}
+
+.highlight {
+
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.imageWrapper {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.mainIcon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iconOverlay {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+}
+
+.number {
+  font-size: 32px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.text {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.numberWhite {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.textWhite {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.quantityBtn:hover {
+  background-color: #db4444;
+}
+
+.quantityBtn:hover img,
+.quantityBtn:hover svg {
+  filter: brightness(0) invert(1); // makes image/SVG white
+}
+
+.quantityBtn:hover path {
+  fill: #fff; // for inline SVGs
+}

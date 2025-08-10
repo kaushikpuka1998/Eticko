@@ -1,0 +1,65 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.image {
+
+  object-fit: cover;
+  margin: 0 16px;
+  border-radius: 8px;
+
+}
+
+.navBtn {
+  background: #db4444;
+  color: #fff;
+
+  padding: 4px 6px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.navBtn:hover {
+  background: #a80000;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #0d0d0d;
+  margin: 0 20px;
+}
+
+.iconOverlay {
+  position: absolute;
+  bottom: 12px;
+  right: 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.iconOverlay a {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 22px;
+  transition: background 0.2s;
+}
+
+.iconOverlay a:hover {
+  background: #db4444;
+}
+
+.name {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
